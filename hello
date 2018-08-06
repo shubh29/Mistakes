@@ -8,4 +8,4 @@
 7. Attempt to merge yourname branch, using the same command as before: git merge yourname
 8. It should indicate that there’s a conflict. 
 9. Now enter the following command to launch KDiff3: git mergetool (Hint return when prompted to start the tool.) 
-Hello from shubham
+Hello from mahajan
