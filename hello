@@ -1,0 +1,11 @@
+In this part, we will create conflicting changes on the master and yourname branches. We will then use the visual merge tool to resolve the conflicts. 
+1. Ensure that you’re still on the master branch. Modify HelloWorld.java to print “Hello Conflicts from Master!” 
+2. Commit and push your changes to the remote master branch. 
+3. Now switch to the yourname branch. Change exactly the same line in HelloWorld.java, but make it print “Hello Conflicts from yourname!” 
+4. Again, commit and push your change to the remote yourname branch. 
+5. Now, check what GitHub displays for the status of the yourname branch, as done previously. Share the status with everyone in class.
+6. Switch back to master branch. 
+7. Attempt to merge yourname branch, using the same command as before: git merge yourname
+8. It should indicate that there’s a conflict. 
+9. Now enter the following command to launch KDiff3: git mergetool (Hint return when prompted to start the tool.) 
+Hello from master
